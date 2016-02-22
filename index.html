@@ -1,0 +1,402 @@
+<html>
+  <head>
+    <!-- Material Design Lite -->
+    <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-red.min.css">
+    <!-- Material Design icon font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+  <body>
+     <div class="mdl-layout__header-row" id="title">
+      <!-- Title -->
+      <div class="mdl-layout-spacer"></div>
+      <span class="mdl-layout-title">The Internet</span>
+      <div class="mdl-layout-spacer"></div>
+    </div>
+    <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+      <div class="mdl-tabs__tab-bar">
+          <a href="#home-panel" class="mdl-tabs__tab is-active">Home</a>
+          <a href="#intro-panel" class="mdl-tabs__tab">Overview</a>
+          <a href="#people-panel" class="mdl-tabs__tab">People</a>
+          <a href="#timeline-panel" class="mdl-tabs__tab">Timeline</a>
+          <a href="#eee-panel" class="mdl-tabs__tab">Exchange</a>
+          <a href="#research-panel" class="mdl-tabs__tab">Research</a>
+      </div>
+    
+      <div class="ribbon" id="ribbon"></div>
+
+      <div class="mdl-tabs__panel is-active" id="home-panel">
+        <div class="container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+            <div class="crumbs mdl-color-text--grey-500">
+              Home
+            </div>
+            <center><h2>The Creation of the Internet</h2>
+            <h4>By: Braeden Smith</h4>
+            <h6>Senior Division</h6>
+            <h6>Website: 809 words</h6>
+            <h6>Process Paper: 497 words</h6></center>
+
+            <center><h3>"Without the contributions of Robert E Kahn and Vinton Gray Cerf the internet, as we know it today, would not be possible."</h3></center>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-tabs__panel" id="intro-panel">
+        <div class="container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+            <div class="crumbs mdl-color-text--grey-500">
+              Overview
+            </div>
+            <h3>A new Era</h3>
+
+              <p>
+              The Internet is a vast computer network which in today's age, we often take for granted. The internet is a core piece of our culture, has revolutionized the way we buy, learn, work and communicate. It allows anyone around the world to communicate instantly and globally, but very little is known about its initial creation. 
+              </p>
+              <p class="quote">"If I have seen further, it is by standing on the shoulders of giants."</p>
+              <p class="source">- Issac Newton in a letter to Robert Hooke (15 February 1676)</p>
+              <p>The early beginnings of the internet are often attributed to ARPANET, a early packet switching ( where data is sent in small "packets" to a final destination)<a class="endnote" href="endnotes.pdf">[3]</a> network, and the first to use TCP/IP (the core protocols for communication on the internet). ARPANET was funded by the US Department of Defense. Robert Kahn joined DARPA in 1972 and introduced the idea of open-architecture networking, which focused on allowing any computer to communicate with each other regardless of hardware. The current protocol being developed, NCP, was unable to provide reliability in case any data was lost during transmission, and it was rather rigid and limited. <a class="endnote" href="endnotes.pdf">[1]</a></p>
+              <img src="01.jpg" class="content-img" style="width:800px;">
+              <p class="source">"An IMP log excerpt kept at UCLA that describes setting up a message transmission from the UCLA SDS Sigma 8 host computer to the SRI SDS 940 host computer. The initials 'CSK' to the right stand for Charles S Kline." <a class="endnote" href="endnotes.pdf">[8]</a> </p>
+              <p>A new protocol had to be developed which was able to follow four proposed rules which can be summarized as follows: <a class="endnote" href="endnotes.pdf">[1]</a></p>
+              <ol>
+                <li>A network should be able to stand on its own and connect to the internet without changes</li>
+                <li>Packets (the small pieces of data) should be retransmitted if lost</li>
+                <li>Black boxes (later renamed to routers and gateways) would manage the flow of data but not store any information</li>
+                <li>There has to be no global control of the protocols operation</li>
+              </ol>
+              <img src="02.jpg" class="content-img" style="width:800px;">
+              <p class="source">ARPANET Logical Map, March 1977 <a class="endnote" href="endnotes.pdf">[9]</a></p>
+              <p>
+              In 1973 Bob Kahn asked Vint Cerf to assist him in the development of the TCP/IP protocol as Cerf had been deeply involved in the design of NCP. As they worked together, they developed a paper, which only focused on TCP, which controls the transport and forwarding of data on the internet. This function alone for a while until it was realized that certain packet losses should be ignored, and IP was born to manage the addressing and the forwarding of packets, while TCP handled flow and recovery of packets. <a class="endnote" href="endnotes.pdf">[1]</a>
+              </p>
+              <img src="03.png" class="content-img" style="width:500px;">
+              <p class="source">A diagram of packets from the original paper laying our TCP by Robert Kahn and Vint Cerf<a class="endnote" href="endnotes.pdf">[10]</a></p>
+              <p>
+              With a 3 contracts from DARPA teams (one lead by Cerf) began developing detailed specification for TCP/IP and simplified it down to run on desktop PC's, which were becoming increasingly popular. As the network scaled in size, modifications were made, and by 1985, the internet had become well established as a community for researchers and developers and in a short while the cohesive and scalable network which had been developed eventually grew into the internet we know it today. <a class="endnote" href="endnotes.pdf">[1]</a>
+              </p>
+              <p class="quote">"The Internet is becoming the town square for the global village of tomorrow"</p>
+              <p class="source">- Bill Gates <a class="endnote" href="endnotes.pdf">[11]</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-tabs__panel" id="timeline-panel">
+        <div class="container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+            <div class="crumbs mdl-color-text--grey-500">
+              A couple of core pieces of history <a class="endnote" href="endnotes.pdf">[2]</a>
+            </div>
+              <section id="timeline" class="timeline-outer">
+                <div class="container" id="content">
+                  <div class="row">
+                    <div class="col s12 m12 l12">
+                      <h1 class="blue-text lighten-1 header">Timeline</h1>
+                      <ul class="timeline">
+                        <li class="event" data-date="1966">
+                          <h3>ARPANET project starts</h3>
+                        </li>
+                        <li class="event" data-date="1967">
+                          <h3>ARPANET designing starts</h3>
+                        </li>
+                        <li class="event" data-date="1969">
+                          <h3>UCLA sends first packets containing: "LO"</h3>
+                        </li>
+                        <li class="event" data-date="1972">
+                          <h3>Bob Kahn Demonstrates ARPANET</h3>
+                        </li>
+                        <li class="event" data-date="1973">
+                          <h3>Kahn and Cerf begin TCP/IP development</h3>
+                        </li>
+                        <li class="event" data-date="1974">
+                          <h3>"A Protocol for Packet Network Internconection" paper is published by Robert and Vint</h3>
+                        </li>
+                        <li class="event" data-date="1983">
+                          <h3>ARPANET makes the tranition from NCP to TCP/IP</h3>
+                        </li>
+                        <li class="event" data-date="1991">
+                          <h3>The World Wide Web becomes public</h3>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+        </div>
+      </div>
+      <div class="mdl-tabs__panel" id="people-panel">
+        <div class="container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+            <div class="crumbs mdl-color-text--grey-500">
+              People
+            </div>
+            <center><h1>
+              Fathers of the Internet
+            </h1></center>
+            <img src="04.jpg" class="content-img" style="width:500px;">
+            <p class="source">Vint Cerf (LEFT) and Robert Kahn (RIGHT)<a class="endnote" href="endnotes.pdf">[12]</a></p>
+            <h3>Robert E Kahn</h3>
+            <p class="quote"> "It wasn't just a transmission, it was a whole system of network protocols being demonstrated over three different networks."</p>
+            <p class="source">- Bob Kahn describing the successful test of 3 networks with TCP/IP <a class="endnote" href="endnotes.pdf">[4]</a></p>
+            <p>
+              Born in 1938, Robert Kahn worked at BBN which built hardware which was used in ARPANET, like the IMP. In 1972, Kahn joined ARPA, which oversaw ARPANET, and in 1973, he recruited Vint Cerf to help him design a protocol which worked to connect all different types of computers and in May 1974, the TCP/IP paper was published. Eventually in 1977, a message was sent from van to satellite between 3 networks as a proof of concept. <a class="endnote" href="endnotes.pdf">[4]</a> After spending 13 years at DRPA, he founded the Corporation for National Research initiatives which developes information technologies for public good in 1986 and has been the Chairman, CEO and President ever since. <a class="endnote" href="endnotes.pdf">[5]</a>
+            </p>
+            <img src="05.jpg" class="content-img" style="width:800px;">
+            <p class="source">Called IMPs, built by BBN they eventually evolve into routers, at the time a core peice of hardware for ARPANET <a class="endnote" href="endnotes.pdf">[13]</a></p>
+              <p>
+            <h3>Vinton Gray Cerf</h3>
+            <p class="quote">"We never, ever in the history of mankind have had access to so much information so quickly and so easily."</p>
+            <p class="source">- Vint Cerf <a class="endnote" href="endnotes.pdf">[7]</a></p>
+            <p>
+            Born in 1943, Vint Cerf is also considered to be a father of the internet. Cerf studied at Stanford, worked at IBM, attended UCLA and returned to Stanford to complete his doctorate in computer science. In 1973 he was approached by Kahn while being a professor at stanford, to help him design the network. After leaving DARPA in 1982, he became a VP at MCI and later CNRI, where Khan was president. After a couple of other roles, he became the Chief Internet Evangelist at Google in 2005 and continues to be there till this day. <a class="endnote" href="endnotes.pdf">[6]</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-tabs__panel" id="eee-panel">
+        <div class="container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+            <div class="crumbs mdl-color-text--grey-500">
+              Exchange
+            </div>
+            <h3>Collaboration and Communication</h3>
+            <p class="quote">"New capabilities emerge just by virtue of having smart people with access to state-of-the-art technology" </p>
+            <p class="source">- Bob Kahn <a class="endnote" href="endnotes.pdf">[14]</a></p>
+            <p>
+              The creation of the internet is a powerful example of how the exchange of information through collaboration allows groundbreaking things to be built. The development of the TCP/IP protocol required numerous people to come together and exchange their ideas and their research in order to further their work towards an ultimate goal. Most notably Robert E Kahn and Vinton Gray Cerf worked collaboratively given their separate expertise/experience to create a brand new protocol which revolutionized the way information can be transferred and laid the groundwork for the internet.
+            </p>
+            <img src="06.gif" class="content-img" style="width:500px;">
+            <p class="source">ARPANET with 4 nodes <a class="endnote" href="endnotes.pdf">[15]</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+    body {
+      background: #fafafa;
+      position: relative;
+    }
+    #title {
+      text-align:center;
+    }
+    .main {
+      margin-top: 5vh;
+      flex-shrink: 0;
+    }
+    
+    .header .mdl-layout__header-row {
+      padding-left: 40px;
+    }
+    
+    .container {
+      max-width: 1600px;
+      width: calc(100% - 16px);
+      margin: 0 auto;
+    }
+    
+    .content {
+      border-radius: 2px;
+      padding: 80px 56px;
+      margin-bottom: 80px;
+    }
+    
+    .layout.is-small-screen .content {
+      padding: 40px 28px;
+    }
+    
+    .content h3 {
+      margin-top: 48px;
+    }
+    .fab {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    .ribbon {
+      position: absolute;
+      width: 100%;
+      height: 40vh;
+      background-color:#37474F;
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+      z-index:-1;
+    }
+    .quote {
+      font-size: 200%;
+      font-style: italic;
+      text-align: center;
+    }
+    .source {
+      font-size: 120%;
+      font-weight: bold;
+      text-align: center;
+    }
+    .endnote {
+      font-size: 12px;
+    }
+    .content-img {
+      max-width:100%;
+      max-height:100%;
+      display:block;
+      margin:auto;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      margin-top: 40px;
+      margin-bottom: 40px;
+      border-radius: 1%;
+    }
+    /*——————————————
+Global
+———————————————*/
+
+body {
+  font-family: helvetica;
+}
+/*——————————————
+TimeLine CSS
+———————————————*/
+/* Base */
+
+#content {
+  margin-top: 50px;
+  text-align: center;
+}
+
+section.timeline-outer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1.header {
+  font-size: 50px;
+  line-height: 70px;
+}
+/* Timeline */
+
+.timeline {
+  border-left: 8px solid #BBDEFB;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: #333;
+  margin: 50px auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  padding: 20px;
+  list-style: none;
+  text-align: left;
+}
+
+.timeline h1,
+.timeline h2,
+.timeline h3 {
+  font-size: 1.4em;
+}
+
+.timeline .event {
+  border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .event:before {
+  left: -177.5px;
+  color: #212121;
+  content: attr(data-date);
+  text-align: right;
+  /*  font-weight: 100;*/
+  
+  font-size: 16px;
+  min-width: 120px;
+}
+
+.timeline .event:after {
+  box-shadow: 0 0 0 8px #42A5F5;
+  left: -30px;
+  background: #212121;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 5px;
+}
+/**/
+/*——————————————
+Responsive Stuff
+———————————————*/
+
+@media (max-width: 945px) {
+  .timeline .event::before {
+    left: 0.5px;
+    top: 20px;
+    min-width: 0;
+    font-size: 13px;
+  }
+  .timeline h3 {
+    font-size: 16px;
+  }
+  .timeline p {
+    padding-top: 20px;
+  }
+  section.lab h3.card-title {
+    padding: 5px;
+    font-size: 16px
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline .event::before {
+    left: 0.5px;
+    top: 20px;
+    min-width: 0;
+    font-size: 13px;
+  }
+  .timeline .event:nth-child(1)::before,
+  .timeline .event:nth-child(3)::before,
+  .timeline .event:nth-child(5)::before {
+    top: 38px;
+  }
+  .timeline h3 {
+    font-size: 16px;
+  }
+  .timeline p {
+    padding-top: 20px;
+  }
+}
+/*——————————————
+others
+———————————————*/
+
+a.portfolio-link {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+    
+    </style>
+  </body>
+
+</html>
